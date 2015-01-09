@@ -11,11 +11,10 @@
     </head>
     <body>
         <div class="app">
-            <div id="accelerometer">Waiting for accelerometer...</div>
-            <h1>PhoneGap</h1>
-            <button onclick="capturePhoto();">Capture Photo</button> <br>
-            <button onclick="capturePhotoEdit();">Capture Editable Photo</button> <br>
+            <button onclick="capturePhoto();" id="smallImageButton">Capture Photo</button> <br>
+            <button onclick="capturePhotoEdit();" id="largeImageButton">Capture Editable Photo</button> <br>
             <img id="smallImage" src="" />
+            <img id="largeImage" src="" />
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>

@@ -50,7 +50,7 @@ body {
     background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
     left:50%;
-    top:20%;
+    top:40%;
     height:50px;                   /* text area height */
     width:225px;                   /* text area width */
     text-align:center;
@@ -60,9 +60,24 @@ body {
                                    /* offset horizontal: half of text area width */
 }
 
+#smallImageButton {
+    color: blue;
+}
+
+#largeImageButton {
+    color: red;
+}
+
 #smallImage {
     height: 100px;
     width: 100px;
+    border: 1px blue solid;
+}
+
+#largeImage {
+    height: 100px;
+    width: 100px;
+    border: 1px red solid;
 }
 
 /* Landscape layout (with min-width) */
